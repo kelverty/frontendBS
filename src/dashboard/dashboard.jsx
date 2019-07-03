@@ -19,7 +19,7 @@ import Status from '../solicitacao/status'
 
     }
     componentWillMount() {
-        const URL = 'http://localhost:3004/api/solicitacao'
+        const URL = 'https://bs-backend-sr.herokuapp.com/api//solicitacao'
       
             axios.get(URL)
                 .then(resp => this.setState({...this.state,list: resp.data}))

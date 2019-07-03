@@ -1,6 +1,6 @@
 import { toastr } from 'react-redux-toastr'
 import axios from 'axios'
-const BASE_URL = 'http://localhost:3004/api'
+const BASE_URL = 'https://bs-backend-sr.herokuapp.com/api/'
 export function login(values) {
   return submit(values, `${BASE_URL}/login`)
 }

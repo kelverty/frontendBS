@@ -20,7 +20,7 @@ import {visualizarTomador} from '../solicitacao/solicitacaoActions'
     componentWillMount() {
  
 
-        const URL = `http://localhost:3004/api/solicitacaoTomador/${this.props.user.email}`
+        const URL = `https://bs-backend-sr.herokuapp.com/api//solicitacaoTomador/${this.props.user.email}`
       
             axios.get(URL)
                 .then(resp => this.setState({...this.state,list: resp.data}))

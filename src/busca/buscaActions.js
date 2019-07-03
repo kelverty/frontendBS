@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { showTabs, selectTab } from '../common/tab/tabActions'
 
-const BASE_URL = 'http://localhost:3004/api'
+const BASE_URL = 'https://bs-backend-sr.herokuapp.com/api/'
 
 export const changeProfissao = event => {
     const UsuarioLogado= JSON.parse(localStorage.getItem('UsuarioLogado'))
