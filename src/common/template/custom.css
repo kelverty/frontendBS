@@ -1,0 +1,18 @@
+.main-footer {
+    position: fixed;
+    bottom:0px;
+    width:100%;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.table-actions {
+    width: 150px;
+}
+
+.table-correta{
+    text-align: center;
+    width: 20px;
+}
